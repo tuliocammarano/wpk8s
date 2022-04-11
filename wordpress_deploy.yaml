@@ -16,5 +16,3 @@
     
     - name: Deploy bitnami wordpress helm chart
       command: "helm install deploycontainers bitnami/wordpress"
-
-
