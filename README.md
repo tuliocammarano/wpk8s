@@ -1,5 +1,5 @@
-# Desafio - DevOps | Wordpress K8S
-TODO: Suba uma aplicação web (Wordpress, NodeJS App) em um cluster kubernetes.
+# Challenge - DevOps | Wordpress K8S
+TODO: Bring up a web application (Wordpress, NodeJS App) in a kubernetes cluster.
 
 # Getting Started
 TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:

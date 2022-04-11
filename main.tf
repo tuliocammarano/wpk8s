@@ -4,6 +4,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "wpk8s" {
-  name     = "wpk8s"
+  name     = var.rg-name
   location = "brazilsouth"
 }
