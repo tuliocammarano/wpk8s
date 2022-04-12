@@ -11,8 +11,11 @@
     - name: Add Bitnami to helm repo      
       command: "helm repo add bitnami https://charts.bitnami.com/bitnami"
 
+      name: Add Elastic to helm repo
+      command: "helm repo add elastic https://helm.elastic.co/"
+
     - name: Helm repo update
       command: "helm repo update"
     
     - name: Deploy bitnami wordpress helm chart
-      command: "helm install deploycontainers bitnami/wordpress"
+      command: "helm install wordpress -f wordpress_config.yaml bitnami/wordpress"
