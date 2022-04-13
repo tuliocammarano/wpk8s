@@ -1,5 +1,5 @@
 # Challenge - DevOps | Wordpress K8S
-Bring up a web application (Wordpress, NodeJS App) in a kubernetes cluster.
+Bring up a web application (Wordpress, NodeJS App) in a kubernetes cluster from Microsoft (AKS).
 
 # Prerequisites
 <li>Terraform (learn.hashicorp.com/tutorials/terraform/install-cli)</li>
@@ -11,14 +11,19 @@ Bring up a web application (Wordpress, NodeJS App) in a kubernetes cluster.
 # Installation
 Below is the commands you will need to run.
 
+First, validate terraform code;
 <pre>terraform validate</pre>
 
+Plan the execution;
 <pre>terraform plan</pre>
 
+Apply terraform plan without confirmation;
 <pre>terraform apply -auto-approve</pre>
 
+Deploy the applications;
 <pre>ansible-playbook deploy.yaml</pre>
 
+Get the External IPs to access the deployed applications, Kibana must be accessed at port 5601.
 <pre>kubectl get svc kibana-kibana wordpress</pre>
 
 # Usage
