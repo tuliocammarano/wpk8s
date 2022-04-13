@@ -11,7 +11,10 @@ Bring up a web application (Wordpress, NodeJS App) in a kubernetes cluster from 
 # Installation
 Below is the commands you will need to run.
 
-First, validate terraform code;
+First, initialize terraform;
+<pre>terraform init</pre>
+
+Validate terraform code;
 <pre>terraform validate</pre>
 
 Plan the execution;
