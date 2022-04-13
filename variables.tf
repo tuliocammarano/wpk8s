@@ -1,3 +1,4 @@
+#Variables
 variable "aks-name" {
   type    = string
   default = "wpk8saks"

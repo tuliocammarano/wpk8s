@@ -1,3 +1,4 @@
+#Config file for elasticsearch helm chart
 ---
 clusterName: "elasticsearch"
 nodeGroup: "master"

@@ -1,3 +1,4 @@
+#Create AKS cluster with X nodes, desired vm model and add a Kube DNS
 resource "azurerm_kubernetes_cluster" "aks" {
   name                = var.aks-name
   location            = azurerm_resource_group.wpk8s.location

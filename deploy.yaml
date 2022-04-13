@@ -1,4 +1,4 @@
-#This playbook installs the bitnami Wordpress chart in the cluster
+#This playbook Deploy all applications in the cluster using Helm and custom .yaml config files
 - name: Install bitnami Wordpress
   hosts: localhost
   tasks:
@@ -28,3 +28,14 @@
 
     - name: Deploy elastic Kibana helm chart
       command: "helm install kibana -f kibana_config.yaml elastic/kibana"
+
+    - name: Pause for 20 seconds to get external ip adresses
+      pause:
+        seconds: 20
+
+    - name: Show External-IP addresses from Wordpress and Kibana
+      command: "kubectl get svc kibana-kibana wordpress"
+      register: external_ips
+
+    - debug:
+        var: external_ips.stdout_lines

@@ -1,3 +1,4 @@
+#Define Azure provider and create a resource group at BrazilSouth
 provider "azurerm" {
   features {
   }

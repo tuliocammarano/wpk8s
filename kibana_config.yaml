@@ -1,3 +1,4 @@
+#Config file for kibana helm chart
 ---
 elasticsearchHosts: "http://elasticsearch-master.default.svc.cluster.local:9200"
 
