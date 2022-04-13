@@ -14,4 +14,8 @@ resource "azurerm_kubernetes_cluster" "aks" {
   identity {
     type = "SystemAssigned"
   }
+
+  provisioner "local-exec" {
+ command = "ansible-playbook deploy.yaml"
+}
 }
