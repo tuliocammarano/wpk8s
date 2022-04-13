@@ -2,7 +2,7 @@
 Bring up a web application (Wordpress, NodeJS App) in a kubernetes cluster.
 
 # Prerequisites
--Terraform (learn.hashicorp.com/tutorials/terraform/install-cli)
+<li>-Terraform (learn.hashicorp.com/tutorials/terraform/install-cli)</li>
 -Helm (helm.sh/docs/intro/install/)
 -Azure Account (portal.azure.com)
 -Azure CLI (https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
