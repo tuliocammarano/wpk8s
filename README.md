@@ -22,7 +22,7 @@ Below is the commands you will need to run.
 <pre>kubectl get svc kibana-kibana wordpress</pre>
 
 # Usage
-This project can be used to bring up a website based in wordpress with monitoring based in ELK Stack.
+This project can be used to bring up a website based in Wordpress with monitoring based in ELK Stack.
 
 # Contact
 
