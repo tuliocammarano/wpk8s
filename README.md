@@ -33,7 +33,7 @@ Get the External IPs to access the deployed applications, Kibana must be accesse
 <pre>kubectl get svc kibana-kibana wordpress</pre>
 
 # Usage
-This project can be used to bring up a website based in Wordpress with monitoring based in ELK Stack hosted at Azure.
+This project can be used to bring up a website based in Wordpress with monitoring based in ELK Stack hosted at Azure AKS.
 
 # Contact
 
