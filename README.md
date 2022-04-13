@@ -26,12 +26,6 @@ Plan the execution;
 Apply terraform plan without confirmation;
 <pre>terraform apply -auto-approve</pre>
 
-Deploy the applications;
-<pre>ansible-playbook deploy.yaml</pre>
-
-Get the External IPs to access the deployed applications, Kibana must be accessed at port 5601.
-<pre>kubectl get svc kibana-kibana wordpress</pre>
-
 # Usage
 This project can be used to bring up a website based in Wordpress with monitoring based in ELK Stack hosted at Azure AKS.
 
