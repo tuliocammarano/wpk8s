@@ -33,3 +33,4 @@ override.tf.json
 .terraformrc
 terraform.rc
 .terraform.lock.hcl
+wpk8s.code-workspace
