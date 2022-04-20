@@ -1,4 +1,4 @@
-# Challenge - DevOps | Wordpress K8S
+# Wordpress K8S
 Bring up a web application (Wordpress, NodeJS App) in a kubernetes cluster from Microsoft (AKS).
 
 # Prerequisites
